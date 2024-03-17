@@ -14,9 +14,10 @@
 
   <body>
     <%= render "partials/header" %>
-    <p class="notice"><%= notice %></p>
+    <div class="container">
+      <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
-
+    </div>
     <main class="container mx-auto mt-8 px-5 flex">
       <%= yield %>
     </main>
