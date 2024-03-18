@@ -7,3 +7,16 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+require "faker"
+
+20.times do 
+Property.create!({
+    name: Faker::Lorem.sentence(word_count: 3),
+    description: Faker::Lorem.paragraph(sentence_count: 10),
+    address_1: Faker::Address.street_name,
+    address_2: Faker::Address.city,
+    country: Faker::Address.country
+})
+
+end
