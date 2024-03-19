@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .swiper {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+
+  .swiper-button-prev {
+    width: 34px !important;
+    height: 34px !important;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(assets/prev.svg) !important;
+  }
+
+  .swiper-button-prev::after {
+    content: "" !important;
+
+  }
+
+  .swiper-button-next {
+    width: 34px !important;
+    height: 34px !important;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(assets/next.svg) !important;
+  }
+
+  .swiper-button-next::after {
+    content: "" !important;
+  }
