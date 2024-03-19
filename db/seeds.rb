@@ -16,7 +16,8 @@ Property.create!({
     description: Faker::Lorem.paragraph(sentence_count: 10),
     address_1: Faker::Address.street_name,
     address_2: Faker::Address.city,
-    country: Faker::Address.country
+    country: Faker::Address.country,
+    price: 500
 })
 
 end

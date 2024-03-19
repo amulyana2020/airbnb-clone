@@ -4,4 +4,6 @@ class Property < ApplicationRecord
     validates :address_1, presence: true
     validates :address_2, presence: true
     validates :country, presence: true
+
+    monetize :price_cents, allow_nil: true
 end
