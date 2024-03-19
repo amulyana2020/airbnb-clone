@@ -21,8 +21,8 @@
   }
 
   .swiper-button-prev {
-    width: 34px !important;
-    height: 34px !important;
+    width: 20px !important;
+    height: 20px !important;
     background-color: white;
     border-radius: 50%;
     background-image: url(assets/prev.svg) !important;
@@ -34,8 +34,8 @@
   }
 
   .swiper-button-next {
-    width: 34px !important;
-    height: 34px !important;
+    width: 20px !important;
+    height: 20px !important;
     background-color: white;
     border-radius: 50%;
     background-image: url(assets/next.svg) !important;
